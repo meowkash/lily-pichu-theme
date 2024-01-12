@@ -2,7 +2,8 @@
   "name": "lily-pichu-theme",
   "displayName": "Lily Pichu Theme",
   "description": "A VSCode theme inspired by the LilyPichu theme available in BetterDiscord",
-  "version": "0.0.1",
+  "repository": "https://github.com/meowkash/lily-pichu-theme",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.85.0"
   },
