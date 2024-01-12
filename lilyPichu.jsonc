@@ -161,6 +161,7 @@
 		"minimapGutter.addedBackground": "#98c379",
 		"minimapGutter.deletedBackground": "#cb535c",
 		"minimapGutter.modifiedBackground": "#61afefd5",
+		"notebook.editorBackground": "#49292f",
 		"notificationCenter.border": "#795259",
 		"notificationCenterHeader.background": "#673c42",
 		"notificationCenterHeader.foreground": "#cccccc",
@@ -500,7 +501,6 @@
 		//"notebook.cellInsertionIndicator": "#d78c8c",
 		//"notebook.cellStatusBarItemHoverBackground": "#ffffff26",
 		//"notebook.cellToolbarSeparator": "#80808059",
-		//"notebook.editorBackground": "#49292f",
 		//"notebook.focusedCellBorder": "#d78c8c",
 		//"notebook.focusedEditorBorder": "#d78c8c",
 		//"notebook.inactiveFocusedCellBorder": "#9b575f",
@@ -2436,13 +2436,7 @@
 			}
 		},
 		{
-			"scope": [
-				"storage.modifier",
-				"storage.type.class.python",
-				"storage.type.function.python",
-				"keyword.control.flow.python",
-				"keyword.control"
-			],
+			"scope": "storage.modifier, storage.type.class.python, storage.type.function.python, keyword.control.flow.python, keyword.control",
 			"settings": {
 				"foreground": "#F496C2FC"
 			}
@@ -2454,10 +2448,7 @@
 			}
 		},
 		{
-			"scope": [
-				"storage.type.java",
-				"storage.type.generic.java"
-			],
+			"scope": "storage.type.java, storage.type.generic.java",
 			"settings": {
 				"foreground": "#D3F6EA"
 			}
@@ -2469,7 +2460,7 @@
 			}
 		},
 		{
-			"scope": "storage.modifier.import.java",
+			"scope": "storage.modifier.import.java, source.python, entity.name.namespace",
 			"settings": {
 				"foreground": "#E9B3A9"
 			}
@@ -2487,10 +2478,7 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.language",
-				"variable.parameter.function.language.special.self.python"
-			],
+			"scope": "variable.language, variable.parameter.function.language.special.self.python",
 			"settings": {
 				"foreground": "#F2C5FF"
 			}
@@ -2508,11 +2496,7 @@
 			}
 		},
 		{
-			"scope": [
-				"keyword.operator.assignment",
-				"keyword.operator.comparison",
-				"keyword.operator.logical.python"
-			],
+			"scope": "keyword.operator.assignment, keyword.operator.comparison, keyword.operator.logical.python",
 			"settings": {
 				"foreground": "#8DC670"
 			}
