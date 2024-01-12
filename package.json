@@ -1,0 +1,21 @@
+{
+  "name": "lily-pichu-theme",
+  "displayName": "Lily Pichu Theme",
+  "description": "A VSCode theme inspired by the LilyPichu theme available in BetterDiscord",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lily Pichu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lily Pichu-color-theme.json"
+      }
+    ]
+  }
+}
