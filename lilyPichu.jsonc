@@ -28,7 +28,7 @@
 		"debugToolBar.background": "#3b1d24",
 		"debugToolBar.border": "#3d2d2f",
 		"diffEditor.border": "#444444",
-		"diffEditor.insertedTextBackground": "#9bb95533",
+		"diffEditor.insertedTextBackground": "#5e3640",
 		"diffEditor.removedTextBackground": "#ff000033",
 		"dropdown.background": "#714949",
 		"dropdown.border": "#00000000",
@@ -166,7 +166,7 @@
 		"notificationCenterHeader.background": "#673c42",
 		"notificationCenterHeader.foreground": "#cccccc",
 		"notificationToast.border": "#795259",
-		"notifications.background": "#493235",
+		"notifications.background": "#3b1d24",
 		"notifications.border": "#795259",
 		"notifications.foreground": "#ffe2e7",
 		"notificationsErrorIcon.foreground": "#f48771",
@@ -442,7 +442,7 @@
 		//"inlineChat.border": "#454545",
 		//"inlineChat.regionHighlight": "#264f7840",
 		//"inlineChat.shadow": "#0000005c",
-		//"inlineChatDiff.inserted": "#9bb9551a",
+		//"inlineChatDiff.inserted": "#5e364080",
 		//"inlineChatDiff.removed": "#ff00001a",
 		//"inlineChatInput.background": "#49292f",
 		//"inlineChatInput.border": "#454545",
@@ -2454,7 +2454,7 @@
 			}
 		},
 		{
-			"scope": "storage.type.annotation.java",
+			"scope": "storage.type.annotation.java, storage.type, support.type.python",
 			"settings": {
 				"foreground": "#D3F6E2"
 			}
@@ -2484,7 +2484,7 @@
 			}
 		},
 		{
-			"scope": "meta.method.body.java",
+			"scope": "meta.method.body.java, variable.other.readwrite",
 			"settings": {
 				"foreground": "#FFD2DC"
 			}
@@ -2496,9 +2496,9 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.assignment, keyword.operator.comparison, keyword.operator.logical.python",
+			"scope": "keyword.operator.assignment, keyword.operator.assignment.c, keyword.operator.comparison, keyword.operator.comparison.c, keyword.operator.logical.python",
 			"settings": {
-				"foreground": "#8DC670"
+				"foreground": "#F496C2FC"
 			}
 		}
 	]
