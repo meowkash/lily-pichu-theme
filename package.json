@@ -2,9 +2,20 @@
   "name": "lily-pichu-theme",
   "displayName": "Lily Pichu Theme",
   "description": "A VSCode theme inspired by the LilyPichu theme available in BetterDiscord",
-  "repository": "https://github.com/meowkash/lily-pichu-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meowkash/lily-pichu-theme"
+  },
+  "author": {
+    "name": "Aakash Kapoor",
+    "url": "https://aakashkap.com"
+  },
+  "sponsor": {
+    "url": "https://patreon.com/user?u=71714725"
+  },
   "publisher": "aakash-kap",
-  "version": "0.2.0",
+  "icon": "logo.png",
+  "version": "0.2.1",
   "engines": {
     "vscode": "^1.85.0"
   },
