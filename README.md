@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="thumbnail.png" alt="logo" width="150">
+    <img src="https://github.com/meowkash/lily-pichu-theme/blob/…4a32d248ada9ff5a4d2eb22144bb627/logo.png?raw=true" alt="logo" width="150">
   <br><br>
   Lily Pichu Theme for VS Code
   <br>

@@ -15,7 +15,7 @@
   },
   "publisher": "aakash-kap",
   "icon": "logo.png",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "engines": {
     "vscode": "^1.85.0"
   },
